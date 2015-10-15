@@ -1,0 +1,20 @@
+<head>
+  <title>test-meteor</title>
+</head>
+<body>
+  {{> test}}
+</body>
+
+<template name="test">
+  <form>
+    <input type="text" value="foo">
+    <button type="reset">RESET</button>
+  </form>
+  <form>
+    <input type="text" value="{{foo}}">
+    <button type="reset">RESET</button>
+  </form>
+</template>
+
+
+
